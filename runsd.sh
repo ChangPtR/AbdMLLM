@@ -1,0 +1,1 @@
+torchrun --nproc_per_node=gpu --master_port=9802 -m diffusion_model.finetune_sd

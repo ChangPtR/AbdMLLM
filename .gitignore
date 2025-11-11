@@ -1,0 +1,10 @@
+*.pyc
+ckpts/
+dVAR
+.vscode/
+wandb/
+arg_imgs/
+test_img/
+data/
+*.mp4
+feature_kit/models/
