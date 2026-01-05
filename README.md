@@ -2,7 +2,6 @@
 
 <!-- ✨🚀🔧✅📝💡🔍📊📀 💾-->
 
-✨The paper's Appendix is ​​[here](doc/appendix.pdf), where you can find more qualitative results and details.
 
 ## 🔥 News
 - [2025/11/11] We release our code on GitHub.
