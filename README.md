@@ -5,7 +5,7 @@
 <p align="center">
     </a>&nbsp&nbsp📖 <a href="https://arxiv.org/abs/2601.02771">ArXiv</a>
     </a>&nbsp&nbsp │ &nbsp&nbsp📖 <a href="doc/appendix.pdf">Appendix</a>
-    <!-- </a>&nbsp&nbsp │ &nbsp&nbsp🤗 <a href="">Models</a> -->
+    </a>&nbsp&nbsp │ &nbsp&nbsp🤗 <a href="https://huggingface.co/PtRain/AbductiveMLLM">Models</a>
 </p>
 
 
@@ -39,6 +39,10 @@ The train/val split files for both datasets and other model input files are unde
 
 ## 📈 Inference & Evaluation
 
+### Inference
+We release LoRA adapters fine-tuned on the two datasets on Huggingface. Please first download the weights of base model `Qwen/Qwen2-VL-7B-Instruct` from Huggingface. Then, follow the example on Model Card to merge the adapters to the base model.
+
+Inference code:
 ```bash
 python eval_qwen2vl.py
 ```  
